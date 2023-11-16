@@ -4,7 +4,3 @@ rules:
     upstream: zzliux:dev_release    # change `wei` to the owner of upstream repo
     mergeMethod: hardreset
     mergeUnstable: true    # Optional, merge pull request even when the mergeable_state is not clean. Default: false
-  - base: master
-    upstream: zzliux:master
-    mergeMethod: hardreset
-    mergeUnstable: true
